@@ -1,0 +1,151 @@
+
+body{
+    background-color: #E0E0E0;
+}
+
+.container{
+    position: relative;
+}
+
+.top-wrapper{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.top-wrapper>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.search-bar{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    background-color: #FF8C00;
+    height: 30px;
+}
+
+.title-wrapper{
+    float: left;
+    margin-left: 13%;
+    line-height: 30px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.search-wrapper{
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+}
+
+.login-wrapper{
+    font-size: 0.9em;
+}
+
+/*法海寺介绍wrapper*/
+.introduce-wrapper{
+    width: 900px;
+    height: 350px;
+    position: relative;
+    left: 13%;
+    top: -175px;
+    -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,.3),-3px -3px 3px rgba(0,0,0,.3),-3px 3px 3px rgba(0,0,0,.3),3px -3px 3px rgba(0,0,0,.3);
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3),-3px -3px 3px rgba(0,0,0,.3),-3px 3px 3px rgba(0,0,0,.3),3px -3px 3px rgba(0,0,0,.3);
+}
+
+.introduce-wrapper .img-wrapper{
+    position: relative;
+    width: 68%;
+    height: 100%;
+    float: left;
+}
+
+.introduce-wrapper .img-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+.introduce-text-wrapper{
+    float: left;
+    position: relative;
+    background-color: #F5FFFA;
+    width: 32%;
+    height: 100%;
+}
+
+.introduce-text-wrapper:before{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background-color: #FF8C00;
+    right: 10px;
+}
+.introduce-text-wrapper:after{
+    display: block;
+    content: '';
+    position: absolute;
+    border-bottom: 10px solid #F5FFFA;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    top: 30px;
+    right: 10px;
+}
+/*法海寺简介*/
+.introduce-text{
+    position: relative;
+}
+
+.introduce-wrapper .introduce-title{
+    margin-top: 50px;
+}
+
+.introduce-wrapper p{
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+}
+
+/*导航*/
+.nav-container{
+    position: relative;
+    height: 40px;
+    width: 900px;
+    top: -120px;
+    border-bottom: 1px solid #ffffff;
+    left: 13%;
+}
+
+
+.nav-container ul{
+    list-style: none;
+    margin: 0 auto;
+    width: 20.5em;
+}
+
+.nav-container li{
+    float: left;
+    margin-left: 1px;
+}
+
+.nav-container a{
+    color: #808080;
+    background-color: #ffffff;
+    padding: 0 1em;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+
